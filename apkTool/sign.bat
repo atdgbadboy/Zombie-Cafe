@@ -1,0 +1,1 @@
+java -jar signapk.jar certificate.pem key.pk8 ..\Output\ZombieCafe-Unsigned.apk ..\Output\ZombieCafe.apk

@@ -1,0 +1,1 @@
+del ..\Output\ZombieCafe-Unsigned.apk
