@@ -57,6 +57,91 @@ namespace ZC_Health_Inspector
             public byte idk4 { get; set; }
         }
 
+        struct furnitureEng
+        {
+            public byte idk1 { get; set; }
+            public byte idk29 { get; set; }
+            public byte idk2 { get; set; }
+            public byte idk30 { get; set; }
+            public byte level { get; set; }
+            public byte idk28 { get; set; }
+            public string name { get; set; }
+            public int price { get; set; }
+            public bool usesToxin { get; set; }
+            public byte idk27 { get; set; }
+            public byte idk6 { get; set; }
+            public byte idk31 { get; set; }
+            public byte idk7 { get; set; }
+            public short idk8 { get; set; }
+            public short idk9 { get; set; }
+            public short idk10 { get; set; }
+            public byte type { get; set; }
+            public byte idk33 { get; set; }
+            public byte idk32 { get; set; }
+            public short idk12 { get; set; }
+            public short idk13 { get; set; }
+            public short idk14 { get; set; }
+            public short idk15 { get; set; }
+            public short idk16 { get; set; }
+            public short idk17 { get; set; }
+            public short idk18 { get; set; }
+            public short idk19 { get; set; }
+            public byte idk20 { get; set; }
+            public byte idk34 { get; set; }
+            public short idk21 { get; set; }
+            public byte idk22 { get; set; }
+            public string description { get; set; }
+            public short idk24 { get; set; }
+            public byte idk25 { get; set; }
+            public short idk23 { get; set; }
+        }
+
+        struct furnitureJap
+        {
+            public byte idk1 { get; set; }
+            public byte idk29 { get; set; }
+            public byte idk2 { get; set; }
+            public byte idk30 { get; set; }
+            public byte level { get; set; }
+            public byte idk28 { get; set; }
+            public string name { get; set; }
+            public int price { get; set; }
+            public bool usesToxin { get; set; }
+            public byte idk27 { get; set; }
+            public byte idk6 { get; set; }
+            public byte idk31 { get; set; }
+            public byte idk7 { get; set; }
+            public short idk8 { get; set; }
+            public short idk9 { get; set; }
+            public short idk10 { get; set; }
+            public byte type { get; set; }
+            public byte idk33 { get; set; }
+            public byte idk32 { get; set; }
+            public short idk12 { get; set; }
+            public short idk13 { get; set; }
+            public short idk14 { get; set; }
+            public short idk15 { get; set; }
+            public short idk16 { get; set; }
+            public short idk17 { get; set; }
+            public short idk18 { get; set; }
+            public short idk19 { get; set; }
+            public byte idk20 { get; set; }
+            public byte idk34 { get; set; }
+            public short idk21 { get; set; }
+            public byte idk22 { get; set; }
+            public short idk24 { get; set; }
+            public byte idk25 { get; set; }
+            public byte idk56 { get; set; }
+            public string description { get; set; }
+            public short idk23 { get; set; }
+            public int idk51 { get; set; }
+            public byte idk52 { get; set; }
+            public byte idk53 { get; set; }
+            public byte idk54 { get; set; }
+            public short idk55 { get; set; }
+
+        }
+
         struct characterEng
         {
             public byte one { get; set; }
@@ -79,7 +164,22 @@ namespace ZC_Health_Inspector
             //readFood(data);
         }
 
+        private void ConfigureDisplay<T>() where T : struct
+        {
+            GridView myGridView = new GridView() { AllowsColumnReorder = true };
 
+            foreach (var field in typeof(T).GetProperties(BindingFlags.Instance |
+                                                 BindingFlags.NonPublic |
+                                                 BindingFlags.Public))
+            {
+                GridViewColumn gvc = new GridViewColumn();
+                gvc.DisplayMemberBinding = new Binding(field.Name);
+                gvc.Header = field.Name;
+                myGridView.Columns.Add(gvc);
+            }
+
+            DisplayView.View = myGridView;
+        }
 
         private void LoadFileButton_Click(object sender, RoutedEventArgs e)
         {
@@ -93,6 +193,8 @@ namespace ZC_Health_Inspector
                 BinaryReader br = new BinaryReader(data);
                 if (br.ReadStruct<foodItemEng>().servings == 12 && br.ReadStruct<foodItemEng>().servings == 20)
                 {
+                    ConfigureDisplay<foodItemEng>();
+
                     br.index = 0;
                     List<foodItemEng> items = br.ReadStructArray<foodItemEng>();
 
@@ -112,6 +214,8 @@ namespace ZC_Health_Inspector
                 br.index = 0;
                 if (br.ReadStruct<foodItemJap>().servings == 12 && br.ReadStruct<foodItemJap>().servings == 20)
                 {
+                    ConfigureDisplay<foodItemJap>();
+
                     br.index = 0;
                     List<foodItemJap> items = br.ReadStructArray<foodItemJap>();
 
@@ -125,6 +229,45 @@ namespace ZC_Health_Inspector
                     return;
                 }
 
+                br.index = 0;
+                if (br.ReadStruct<furnitureJap>().price == 50 && br.ReadStruct<furnitureJap>().price == 50)
+                {
+                    ConfigureDisplay<furnitureJap>();
+
+                    br.index = 0;
+                    List<furnitureJap> items = br.ReadStructArray<furnitureJap>();
+
+
+                    DisplayView.Items.Clear();
+                    foreach (furnitureJap item in items)
+                    {
+                        DisplayView.Items.Add(item);
+                    }
+                    DisplayView.Items.Refresh();
+
+
+                    currentFileType = typeof(furnitureJap);
+                    Console.WriteLine("CurrentFileType: " + currentFileType);
+                    return;
+                }
+
+                br.index = 0;
+                if (br.ReadStruct<furnitureEng>().price == 50 && br.ReadStruct<furnitureEng>().price == 50)
+                {
+                    ConfigureDisplay<furnitureEng>();
+
+                    br.index = 0;
+                    List<furnitureEng> items = br.ReadStructArray<furnitureEng>();
+
+                    DisplayView.Items.Clear();
+                    foreach (furnitureEng item in items)
+                    {
+                        DisplayView.Items.Add(item);
+                    }
+                    DisplayView.Items.Refresh();
+                    currentFileType = typeof(furnitureEng);
+                    return;
+                }
             }
         }
 

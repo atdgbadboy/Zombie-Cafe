@@ -10,24 +10,13 @@
         <ListView x:Name="DisplayView" Margin="0,57,0,0" SelectionChanged="DisplayView_SelectionChanged">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn DisplayMemberBinding="{Binding type}" Header="type"/>
-                    <GridViewColumn DisplayMemberBinding="{Binding type2}" Header="type2"/>
-                    <GridViewColumn DisplayMemberBinding="{Binding name}" Header="Name" Width="200"/>
-                    <GridViewColumn DisplayMemberBinding="{Binding cost}" Header="Price"/>
-                    <GridViewColumn DisplayMemberBinding="{Binding level}" Header="Level"/>
-                    <GridViewColumn DisplayMemberBinding="{Binding minutes}" Header="Minutes"/>
-                    <GridViewColumn DisplayMemberBinding="{Binding servings}" Header="Servings"/>
-                    <GridViewColumn DisplayMemberBinding="{Binding xpEarned}" Header="XP Earned"/>
-                    <GridViewColumn DisplayMemberBinding="{Binding pricePerServing}" Header="Price Per Serving"/>
-                    <GridViewColumn DisplayMemberBinding="{Binding ID}" Header="ID" Width="40"/>
-                    <GridViewColumn DisplayMemberBinding="{Binding idk4}" Header="idk4"/>
                 </GridView>
             </ListView.View>
         </ListView>
         <Button x:Name="LoadFileButton" Content="Load File" HorizontalAlignment="Left" Margin="10,5,0,0" VerticalAlignment="Top" Width="81" Click="LoadFileButton_Click"/>
         <Button x:Name="SaveFileButton" Content="Save File" HorizontalAlignment="Left" Margin="96,5,0,0" VerticalAlignment="Top" Width="81" Click="SaveFileButton_Click"/>
-        <Button x:Name="RenameItem" Content="Set Name" HorizontalAlignment="Left" Margin="222,32,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="RenameItem_Click"/>
-        <TextBox x:Name="NewNameTextBox" HorizontalAlignment="Left" Height="23" Margin="10,32,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="207"/>
+        <Button x:Name="RenameItem" Content="Set Name" HorizontalAlignment="Left" Margin="222,32,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="RenameItem_Click" Visibility="Hidden"/>
+        <TextBox x:Name="NewNameTextBox" HorizontalAlignment="Left" Height="23" Margin="10,32,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="207" Visibility="Hidden"/>
 
     </Grid>
 </Window>

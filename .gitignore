@@ -2,3 +2,5 @@
 *.lnk
 *.lnk
 Output/ZombieCafe.apk
+Inspector/ZC Health Inspector/bin/Debug/ZC Health Inspector.exe
+*.pdb

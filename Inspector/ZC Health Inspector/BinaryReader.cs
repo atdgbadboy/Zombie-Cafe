@@ -102,7 +102,9 @@ namespace ZC_Health_Inspector
             byte[] buffer = new byte[length];
             Buffer.BlockCopy(file, index, buffer, 0, length);
             index += length;
-            return Encoding.UTF8.GetString(buffer);
+            string s = Encoding.UTF8.GetString(buffer);
+            Console.WriteLine(s + " " + buffer.Length);
+            return s;
         }
 
         public bool ReadBool()

@@ -45,3 +45,18 @@ D:\ZC Health Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.exe
 D:\ZC Health Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.pdb
 D:\ZC Health Inspector\ZC Health Inspector\obj\Debug\Furnitue.g.cs
 D:\ZC Health Inspector\ZC Health Inspector\obj\Debug\Furnitue.baml
+D:\Source Codes\Zombie-Cafe\Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.csprojAssemblyReference.cache
+D:\Source Codes\Zombie-Cafe\Inspector\ZC Health Inspector\obj\Debug\MainWindow.g.cs
+D:\Source Codes\Zombie-Cafe\Inspector\ZC Health Inspector\obj\Debug\App.g.cs
+D:\Source Codes\Zombie-Cafe\Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector_MarkupCompile.cache
+D:\Source Codes\Zombie-Cafe\Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector_MarkupCompile.lref
+D:\Source Codes\Zombie-Cafe\Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.exe
+D:\Source Codes\Zombie-Cafe\Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.pdb
+D:\Source Codes\Zombie-Cafe\Inspector\ZC Health Inspector\bin\Debug\ZC Health Inspector.exe.config
+D:\Source Codes\Zombie-Cafe\Inspector\ZC Health Inspector\bin\Debug\ZC Health Inspector.exe
+D:\Source Codes\Zombie-Cafe\Inspector\ZC Health Inspector\bin\Debug\ZC Health Inspector.pdb
+D:\Source Codes\Zombie-Cafe\Inspector\ZC Health Inspector\obj\Debug\MainWindow.baml
+D:\Source Codes\Zombie-Cafe\Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.g.resources
+D:\Source Codes\Zombie-Cafe\Inspector\ZC Health Inspector\obj\Debug\ZC_Health_Inspector.Properties.Resources.resources
+D:\Source Codes\Zombie-Cafe\Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.csproj.GenerateResource.cache
+D:\Source Codes\Zombie-Cafe\Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.csproj.CoreCompileInputs.cache
