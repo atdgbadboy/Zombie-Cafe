@@ -1,0 +1,47 @@
+C:\Users\Dylan\source\repos\ZC Health Inspector\ZC Health Inspector\bin\Debug\ZC Health Inspector.exe.config
+C:\Users\Dylan\source\repos\ZC Health Inspector\ZC Health Inspector\bin\Debug\ZC Health Inspector.exe
+C:\Users\Dylan\source\repos\ZC Health Inspector\ZC Health Inspector\bin\Debug\ZC Health Inspector.pdb
+C:\Users\Dylan\source\repos\ZC Health Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.csprojAssemblyReference.cache
+C:\Users\Dylan\source\repos\ZC Health Inspector\ZC Health Inspector\obj\Debug\MainWindow.g.cs
+C:\Users\Dylan\source\repos\ZC Health Inspector\ZC Health Inspector\obj\Debug\App.g.cs
+C:\Users\Dylan\source\repos\ZC Health Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector_MarkupCompile.cache
+C:\Users\Dylan\source\repos\ZC Health Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector_MarkupCompile.lref
+C:\Users\Dylan\source\repos\ZC Health Inspector\ZC Health Inspector\obj\Debug\MainWindow.baml
+C:\Users\Dylan\source\repos\ZC Health Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.g.resources
+C:\Users\Dylan\source\repos\ZC Health Inspector\ZC Health Inspector\obj\Debug\ZC_Health_Inspector.Properties.Resources.resources
+C:\Users\Dylan\source\repos\ZC Health Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.csproj.GenerateResource.cache
+C:\Users\Dylan\source\repos\ZC Health Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.csproj.CoreCompileInputs.cache
+C:\Users\Dylan\source\repos\ZC Health Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.exe
+C:\Users\Dylan\source\repos\ZC Health Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.pdb
+I:\ZC Health Inspector\ZC Health Inspector\bin\Debug\ZC Health Inspector.exe.config
+I:\ZC Health Inspector\ZC Health Inspector\bin\Debug\ZC Health Inspector.exe
+I:\ZC Health Inspector\ZC Health Inspector\bin\Debug\ZC Health Inspector.pdb
+I:\ZC Health Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.csprojAssemblyReference.cache
+I:\ZC Health Inspector\ZC Health Inspector\obj\Debug\MainWindow.g.cs
+I:\ZC Health Inspector\ZC Health Inspector\obj\Debug\App.g.cs
+I:\ZC Health Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector_MarkupCompile.cache
+I:\ZC Health Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector_MarkupCompile.lref
+I:\ZC Health Inspector\ZC Health Inspector\obj\Debug\MainWindow.baml
+I:\ZC Health Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.g.resources
+I:\ZC Health Inspector\ZC Health Inspector\obj\Debug\ZC_Health_Inspector.Properties.Resources.resources
+I:\ZC Health Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.csproj.GenerateResource.cache
+I:\ZC Health Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.csproj.CoreCompileInputs.cache
+I:\ZC Health Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.exe
+I:\ZC Health Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.pdb
+D:\ZC Health Inspector\ZC Health Inspector\bin\Debug\ZC Health Inspector.exe.config
+D:\ZC Health Inspector\ZC Health Inspector\bin\Debug\ZC Health Inspector.exe
+D:\ZC Health Inspector\ZC Health Inspector\bin\Debug\ZC Health Inspector.pdb
+D:\ZC Health Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.csprojAssemblyReference.cache
+D:\ZC Health Inspector\ZC Health Inspector\obj\Debug\MainWindow.g.cs
+D:\ZC Health Inspector\ZC Health Inspector\obj\Debug\App.g.cs
+D:\ZC Health Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector_MarkupCompile.cache
+D:\ZC Health Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector_MarkupCompile.lref
+D:\ZC Health Inspector\ZC Health Inspector\obj\Debug\MainWindow.baml
+D:\ZC Health Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.g.resources
+D:\ZC Health Inspector\ZC Health Inspector\obj\Debug\ZC_Health_Inspector.Properties.Resources.resources
+D:\ZC Health Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.csproj.GenerateResource.cache
+D:\ZC Health Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.csproj.CoreCompileInputs.cache
+D:\ZC Health Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.exe
+D:\ZC Health Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.pdb
+D:\ZC Health Inspector\ZC Health Inspector\obj\Debug\Furnitue.g.cs
+D:\ZC Health Inspector\ZC Health Inspector\obj\Debug\Furnitue.baml

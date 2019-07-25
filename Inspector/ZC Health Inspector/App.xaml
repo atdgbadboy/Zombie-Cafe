@@ -1,0 +1,9 @@
+﻿<Application x:Class="ZC_Health_Inspector.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ZC_Health_Inspector"
+             StartupUri="Furnitue.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
