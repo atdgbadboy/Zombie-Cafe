@@ -60,3 +60,18 @@ D:\Source Codes\Zombie-Cafe\Inspector\ZC Health Inspector\obj\Debug\ZC Health In
 D:\Source Codes\Zombie-Cafe\Inspector\ZC Health Inspector\obj\Debug\ZC_Health_Inspector.Properties.Resources.resources
 D:\Source Codes\Zombie-Cafe\Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.csproj.GenerateResource.cache
 D:\Source Codes\Zombie-Cafe\Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.csproj.CoreCompileInputs.cache
+C:\Users\Dylan\Documents\GitHub\Zombie-Cafe\Inspector\ZC Health Inspector\bin\Debug\ZC Health Inspector.exe.config
+C:\Users\Dylan\Documents\GitHub\Zombie-Cafe\Inspector\ZC Health Inspector\bin\Debug\ZC Health Inspector.exe
+C:\Users\Dylan\Documents\GitHub\Zombie-Cafe\Inspector\ZC Health Inspector\bin\Debug\ZC Health Inspector.pdb
+C:\Users\Dylan\Documents\GitHub\Zombie-Cafe\Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.csprojAssemblyReference.cache
+C:\Users\Dylan\Documents\GitHub\Zombie-Cafe\Inspector\ZC Health Inspector\obj\Debug\MainWindow.g.cs
+C:\Users\Dylan\Documents\GitHub\Zombie-Cafe\Inspector\ZC Health Inspector\obj\Debug\App.g.cs
+C:\Users\Dylan\Documents\GitHub\Zombie-Cafe\Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector_MarkupCompile.cache
+C:\Users\Dylan\Documents\GitHub\Zombie-Cafe\Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector_MarkupCompile.lref
+C:\Users\Dylan\Documents\GitHub\Zombie-Cafe\Inspector\ZC Health Inspector\obj\Debug\MainWindow.baml
+C:\Users\Dylan\Documents\GitHub\Zombie-Cafe\Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.g.resources
+C:\Users\Dylan\Documents\GitHub\Zombie-Cafe\Inspector\ZC Health Inspector\obj\Debug\ZC_Health_Inspector.Properties.Resources.resources
+C:\Users\Dylan\Documents\GitHub\Zombie-Cafe\Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.csproj.GenerateResource.cache
+C:\Users\Dylan\Documents\GitHub\Zombie-Cafe\Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.csproj.CoreCompileInputs.cache
+C:\Users\Dylan\Documents\GitHub\Zombie-Cafe\Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.exe
+C:\Users\Dylan\Documents\GitHub\Zombie-Cafe\Inspector\ZC Health Inspector\obj\Debug\ZC Health Inspector.pdb

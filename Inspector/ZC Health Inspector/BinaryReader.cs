@@ -37,7 +37,7 @@ namespace ZC_Health_Inspector
             int num = BitConverter.ToInt32(intbytes, 0);
             if (flip)
             {
-                num = (intbytes[0] << 24) | (intbytes[1] << 16) | (intbytes[2] << 8) | intbytes[3];
+                num = BitConverter.ToInt32(intbytes.Reverse().ToArray(), 0);
             }
 
             index += 4;

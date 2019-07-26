@@ -158,10 +158,6 @@ namespace ZC_Health_Inspector
         public MainWindow()
         {
             InitializeComponent();
-
-            //byte[] data = File.ReadAllBytes(@"C:\Users\Dylan\Desktop\zce\out\assets\data\foodData.bin.mid");         //English
-            //byte[] data = File.ReadAllBytes(@"C:\Users\Dylan\Desktop\zc\out\assets\data\foodData.bin.mid");             //Japanese
-            //readFood(data);
         }
 
         private void ConfigureDisplay<T>() where T : struct
@@ -291,6 +287,10 @@ namespace ZC_Health_Inspector
                 else if(currentFileType == typeof(foodItemEng))
                 {
                     bw.removeByte();
+                }
+                else if(currentFileType == typeof(furnitureJap))
+                {
+                    bw.writeInt(32831);
                 }
 
                 bw.writeToFile(sf.FileName);

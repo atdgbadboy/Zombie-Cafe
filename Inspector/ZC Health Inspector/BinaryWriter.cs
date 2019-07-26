@@ -55,6 +55,20 @@ namespace ZC_Health_Inspector
             return true;
         }
 
+        public bool writeInt(int value)
+        {
+            byte[] data = BitConverter.GetBytes(value).Reverse().ToArray();
+            AppendToFile(data);
+            return true;
+        }
+
+        public bool writeBool(bool value)
+        {
+            byte[] data = BitConverter.GetBytes(value);
+            AppendToFile(data);
+            return true;
+        }
+
         public bool writeStruct(object _value, Type type)
         {
             dynamic value = Convert.ChangeType(_value, type);
@@ -72,6 +86,12 @@ namespace ZC_Health_Inspector
                         break;
                     case TypeCode.Byte:
                         writeByte((byte)field.GetValue(value));
+                        break;
+                    case TypeCode.Int32:
+                        writeInt((int)field.GetValue(value));
+                        break;
+                    case TypeCode.Boolean:
+                        writeBool((bool)field.GetValue(value));
                         break;
                     default:
                         throw new NotImplementedException("Struct Member type not yet implemented: " + field.FieldType.ToString());
