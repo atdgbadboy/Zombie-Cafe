@@ -44,7 +44,7 @@ namespace ZC_Health_Inspector
 
         struct foodItemJap
         {
-            public byte type { get; set; }
+            public byte cookBook { get; set; }
             public byte type2 { get; set; }
             public string name { get; set; }
             public short cost { get; set; }
