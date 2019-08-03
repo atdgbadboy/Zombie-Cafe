@@ -5,3 +5,8 @@ Output/ZombieCafe.apk
 Inspector/ZC Health Inspector/bin/Debug/ZC Health Inspector.exe
 *.pdb
 Inspector/.vs/ZC Health Inspector/v15/.suo
+source/lib/armeabi/libZombieCafeAndroid.id0
+source/lib/armeabi/libZombieCafeAndroid.id1
+source/lib/armeabi/libZombieCafeAndroid.id2
+source/lib/armeabi/libZombieCafeAndroid.nam
+source/lib/armeabi/libZombieCafeAndroid.til

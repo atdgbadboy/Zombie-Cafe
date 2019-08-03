@@ -1,0 +1,213 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color:#FFFFFF;
+	margin:0;
+	padding:0.25em 0 0.25em 0;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:100%;
+	text-align: center;  
+	background-color: #000000;
+	}
+img {
+	border:none;
+	padding:0em;
+	margin:0;
+	}
+table#table-out{
+	border:0;
+	border-spacing:0;
+	margin-top: 0px;
+}
+table#table-out p4{
+	font-size:50%;
+	}
+
+table#table-item{
+	border:0;
+	border-spacing:0;
+	margin-top: 0px;
+	width:320px
+        text-align: center;  
+}
+table#table-item p{
+	font-size:80%;
+	}
+table#table-item p2{
+	font-size:100%;
+	font-weight: bold; 
+	color:red;
+	}
+table#table-item p3{
+	font-size:60%;
+	}
+#header {
+/*	background-image: url("../images/header-bg.png");
+	background-repeat:repeat-x;
+*/
+	margin:0;
+	padding-bottom:0em;
+        text-align: center;  
+	}
+.headerimg{
+	width: 480px;
+	height: 38px;
+	}
+
+hr{
+	border:none;
+	border-top:dashed 1px #FFFFFF;
+	height:1px;
+	color:#FFFFFF;
+	}
+p {
+	font-size:100 %;
+	margin-top:0;
+	padding-top:0;
+	margin-left:0em;
+	}
+p2 {
+	font-size:120%;
+	font-weight: bold; 
+	color:#FFFFFF;
+	}
+p4 {
+	font-size:100%;
+	font-weight: bold; 
+	font-size:90%;
+	color:#7CFC00;
+	}
+p5 {
+	font-size:100%;
+	font-weight: bold; 
+	font-size:90%;
+	color:#FFFFFF;
+	}
+p6 {
+	font-size:100%;
+	font-weight: bold; 
+	font-size:80%;
+	margin-left:0.5em;
+	color:#FFFFFF;
+	}
+p3 {
+	font-size:60 %;
+	margin-top:0;
+	padding-top:0;
+	margin-left:0em;
+	}
+h3 {
+	padding:0.5em;
+	}
+.item-listing {
+	background-repeat:repeat-x;
+	background-position:top;
+#	height:80px;
+	padding-top:0em;
+	}
+.icon {
+	padding-bottom:0em;
+	}
+.buy-large{
+	width: 92px;
+	height: 18px;
+	}
+.buytry{
+	width: 45px;
+	height: 18px;
+}
+.buy-now {
+	margin-right:-0.25em;
+	}
+.item-listing-left {
+	float:left;
+	margin:0;
+	padding:0;
+	padding-left:0em;
+	width:80px;
+	}
+.item-listing-right {
+	display:inline;
+	float:left;
+	margin:0;
+	padding:0;
+	width:200px;
+	}
+.item-listing-right h2 {
+	text-align:left;
+	text-transform:uppercase;
+	color:#FFFFFF;
+	margin-top:0;
+	padding-top:0;
+	margin-left:1em;
+	font-size:100%;
+	}
+.item-listing-right p {
+	text-align:left;
+	margin-left:1em;
+	font-size:60%;
+	}
+#footer {
+	padding-top:2em;
+	font-size:45%;
+	text-align:center;
+	color:#FFFFFF;
+	}	
+#footer a {
+	color:#FFFFFF;
+	text-decoration:none;
+	}
+#footer a:hover {
+	text-decoration:underline;
+	}
+#footer p {
+	margin:0;
+	padding:0;
+	color:#FFFFFF;
+	}
+#territory-container {
+	width:320px;
+	height:480px;
+	margin:0;
+	margin-top:-0.25em;
+	margin-bottom:0.25em;
+	padding:0;
+	background-image: url("../images/territory-bg.html");
+	background-position: center;
+	text-align:center;
+	}
+#territory-container ul,
+#territory-container li {
+	list-style-type:none;
+	display:inline;
+	margin:0;
+	padding:0;
+	}
+.territory-logo {
+	margin-top:5em;
+	margin-bottom:2.5em;
+	}
+a{/*リンクされた文字*/
+	color:red;
+	font-style:normal;
+	text-decoration:underline;
+}
+a:link {/*未訪問のリンク*/
+	color:green;
+	font-style:normal;
+	text-decoration:underline;
+}
+a:visited {/*訪問後のリンク*/
+	color:green;
+	text-decoration:underline;
+}
+a:hover {/*マウスをのせたとき*/
+	color:red;
+	font-style:normal;
+	text-decoration:underline;
+}
+a:active {/*クリック中*/
+	text-decoration:none;
+}
+
