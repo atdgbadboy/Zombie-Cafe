@@ -1,5 +1,5 @@
-# Zombie-Cafe
-## A custom offline client for the game 'Zombie Cafe' by Beeline Interactive
+# Zombie Cafe v1.7.0 modded client
+## A custom client for the game 'Zombie Cafe' by Beeline Interactive
 
 I am building this version based on an old modded APK I found [here.](https://m.apkpure.com/%E3%82%BE%E3%83%B3%E3%83%93%E3%82%AB%E3%83%95%E3%82%A7/com.capcom.zombiecafeandroidJP)
 
